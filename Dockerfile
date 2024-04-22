@@ -6,7 +6,7 @@ COPY cloud.ipynb /home/jovyan/
 
 WORKDIR /home/jovyan/
 
-
+RUN pandas
 
 EXPOSE 8888
 
